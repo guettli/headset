@@ -47,7 +47,13 @@ It has ANC, it is over-ear and has a microphone arm.
 
 Wow, finally I found a suitable headset: The Jabra Evolve2 85 works fine. The USB adapter connects immediately to the headset. The headset has all my requirements (over-ear, ANC, high-quality microphone with a microphone boom arm). I am happy.
 
- 
+
+# WOL
+
+
+[Thomas Working-out-Loud](//github.com/guettli/wol)
+
+
 
 
 
