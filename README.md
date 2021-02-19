@@ -45,6 +45,8 @@ There I received the advice that the Jabra Evolve2 85 comes with a dongle which 
 
 It has ANC, it is over-ear and has a microphone arm.
 
+The audio quality of the microphone is not great. My voice sounds a bit strange (which is does not with other headsets (with cable)).
+
 Wow, finally I found a suitable headset: The Jabra Evolve2 85 works fine. The USB adapter connects immediately to the headset. The headset has all my requirements (over-ear, ANC, high-quality microphone with a microphone boom arm). I am happy.
 
 
