@@ -17,7 +17,7 @@ My requirements:
 
 First I tried Bose 700 (290 Eur). I have a Lenovo Yoga15 laptop running Ubuntu 20.04 Linux.
 
-Both devices did not play well together. Listening to music was fine, but as soon as I tried to enable the microphone the audio quality reduced to an unusable level. It sounded like a gramophone.
+Both devices did not play well together. Listening to music was fine, but as soon as I tried to enable the microphone the audio quality reduced to an unusable level. It sounded like a gramophone. [^1]
 
 Then I tried the Sony WH-1000XM3. Unfortunately, the Bluetooth connection was the same: Only listening to music was great, but as soon as I enabled the microphone the quality was unusable. I did some research and hear that using a USB dongle instead of the Bluetooth of my laptop could help.
 
@@ -56,6 +56,4 @@ Wow, finally I found a suitable headset: The Jabra Evolve2 85 works fine. The US
 [Thomas Working-out-Loud](//github.com/guettli/wol)
 
 
-
-
-
+[^1]: This probably happened because Ubuntu was using the A2DP profile  when listening to music, which is omnidirectional and has great sound quality. However, when using the microphone, it was probably switching to HFP with CSVB codec, which is bidirectional but has terrible sound quality. This problem can now be solved by using PipeWire with HSP/HFP and mSBC codec instead of PulseAudio. More information can be found [here](https://unix.stackexchange.com/questions/616973/use-high-quality-codec-and-microphone-simultaneously-with-bluetooth-headset).
